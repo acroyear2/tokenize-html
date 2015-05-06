@@ -1,0 +1,33 @@
+{
+  "name": "tokenize-html",
+  "version": "1.0.0",
+  "description": "streaming html tokenizer",
+  "main": "index.js",
+  "dependencies": {
+    "htmlparser2": "^3.8.2",
+    "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "tap": "^0.7.1"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tetsuo/tokenize-html.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tetsuo/tokenize-html/issues"
+  },
+  "homepage": "https://github.com/tetsuo/tokenize-html",
+  "keywords": [
+    "tokenize",
+    "html",
+    "parse",
+    "parser",
+    "htmlparser2"
+  ],
+  "author": "Onur Gunduz <ogunduz@gmail.com> (http://onurgunduz.com)",
+  "license": "MIT"
+}
